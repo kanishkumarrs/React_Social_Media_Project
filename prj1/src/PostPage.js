@@ -30,7 +30,7 @@ const PostPage =({ posts, handleDelete }) => {
                 Well, that's disappointing
               </p>
               <p>
-                <Link to='/'>
+                <Link to='/React_Social_Media_Project/'>
                   Visit Our Homepage
                 </Link>
               </p>

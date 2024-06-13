@@ -63,7 +63,7 @@ function App () {
       setPosts(allPosts)
       setPostBody('')
       setPostTitle('')
-      navigate('/')
+      navigate('/React_Social_Media_Project/')
     } catch (err) {
       if(err.response) {
         console.log(err.response.data)
@@ -84,7 +84,7 @@ function App () {
       setPosts(posts.map(post => post.id===id ? {...response.data}:post))
       setEditTitle('')
       setEditBody('')
-      navigate('/')
+      navigate('/React_Social_Media_Project/')
     } catch (err) {
       console.log(`Error: ${err.message}`)
     }
@@ -93,7 +93,7 @@ function App () {
   const handleDelete = async (id) => {
     const postsList = posts.filter(post => post.id !== id)
     setPosts(postsList)
-    navigate('/')
+    navigate('/React_Social_Media_Project/')
   }
 
   return (
@@ -105,7 +105,7 @@ function App () {
       />
       <Routes>
         <Route path="/React_Social_Media_Project" element = {<Home posts = {searchResults}/>} />
-        <Route path="post">
+        <Route path="/React_Social_Media_Project/post">
           <Route index element={<NewPost 
             handleSubmit={handleSubmit}
             postTitle={postTitle}
@@ -122,7 +122,7 @@ function App () {
             setEditBody={setEditBody}
             setEditTitle={setEditTitle}/>
           } />
-        <Route path="about" element = {<About />} />
+        <Route path="React_Social_Media_Project/about" element = {<About />} />
         <Route path="*" element = {<Missing />} />
       </Routes>
       <Footer />

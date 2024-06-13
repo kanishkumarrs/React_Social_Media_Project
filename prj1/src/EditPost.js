@@ -37,7 +37,7 @@ const EditPost = ({
                     <h2>Post not found</h2>
                     <p>That's disappointing</p>
                     <p>
-                        <Link to='/'>Visit Homepage</Link>
+                        <Link to='/React_Social_Media_Project/'>Visit Homepage</Link>
                     </p>
                 </>
             }
