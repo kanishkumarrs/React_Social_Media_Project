@@ -17,9 +17,9 @@ const Nav = ({search, setSearch}) => {
         />
       </form>    
       <ul>
-        <li><Link to='https://kanishkumarrs.github.io/React_Social_Media_Project/'>Home</Link></li>
-        <li><Link to='https://kanishkumarrs.github.io/React_Social_Media_Project/post'>Post</Link></li>
-        <li><Link to='https://kanishkumarrs.github.io/React_Social_Media_Project/about'>About</Link></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='post'>Post</Link></li>
+        <li><Link to='about'>About</Link></li>
       </ul>
     </nav>
   )
