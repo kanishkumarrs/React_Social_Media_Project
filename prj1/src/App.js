@@ -13,6 +13,7 @@ import { Routes, Route, Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import {format} from "date-fns"
 import api from "./api/posts"
+import data from './db.json';
 
 
 function App () {
