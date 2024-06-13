@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "first post",
+      "datetime": "June 16, 2020 15:13:38 AM",
+      "body": "Learning JavaScript"
+    },
+    {
+      "id": "2",
+      "title": "Second post",
+      "datetime": "July 11, 2020 15:19:38 AM",
+      "body": "Learning React from tutorial"
+    },
+    {
+      "id": "3",
+      "title": "Third post",
+      "datetime": "May 12, 2021 15:13:38 AM",
+      "body": "Doing React Project"
+    },
+    {
+      "id": "4",
+      "title": "Fourth post",
+      "datetime": "June  13, 2024 12:36:45 AM",
+      "body": "Learning Node.js now"
+    }
+  ]
+}
