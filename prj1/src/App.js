@@ -104,7 +104,7 @@ function App () {
         setSearch={setSearch}
       />
       <Routes>
-        <Route path="/" element = {<Home posts = {searchResults}/>} />
+        <Route path="/React_Social_Media_Project" element = {<Home posts = {searchResults}/>} />
         <Route path="post">
           <Route index element={<NewPost 
             handleSubmit={handleSubmit}
