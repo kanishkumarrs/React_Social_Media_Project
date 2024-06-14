@@ -17,7 +17,38 @@ import data from './db.json';
 
 
 function App () {
-  const [posts,setPosts] = useState([])
+  const [posts,setPosts] = useState([
+    {
+      "id": "1",
+      "title": "first post",
+      "datetime": "June 16, 2020 15:13:38 AM",
+      "body": "Learning JavaScript"
+    },
+    {
+      "id": "2",
+      "title": "Second post",
+      "datetime": "July 11, 2020 15:19:38 AM",
+      "body": "Learning React from tutorial"
+    },
+    {
+      "id": "3",
+      "title": "Third post",
+      "datetime": "May 12, 2021 15:13:38 AM",
+      "body": "Doing React Project"
+    },
+    {
+      "id": "4",
+      "title": "Fourth post",
+      "datetime": "June  14, 2024 10:58:47 AM",
+      "body": "Learning Node.js"
+    },
+    {
+      "id": "5",
+      "title": "5",
+      "datetime": "June  14, 2024 2:08:26 AM",
+      "body": "try"
+    }
+  ])
   const [search,setSearch] = useState('')
   const [searchResults, setSearchResults] = useState([])
   const [postTitle, setPostTitle]=useState('')
